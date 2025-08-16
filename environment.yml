@@ -1,0 +1,13 @@
+name: genai
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - torch
+      - torchvision
+      - torchaudio
+      - jupyterlab
+      - numpy
+      - pandas
+      - langchain-openai
+      - ipykernel
